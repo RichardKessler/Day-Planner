@@ -58,6 +58,11 @@ textarea {
     color: white;
 }
 
+th {
+    text-align: center;
+    color: darkorange;
+}
+
 .saveBtn {
     text-align: center;
     border-left: 1px solid black;
