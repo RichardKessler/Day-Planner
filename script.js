@@ -1,12 +1,16 @@
 //Create time element
+//Create global variables
 var hour;
 var myInput;
+
+//Load when the document is ready
 $(document).ready(function() {
 
     const curTime = moment();
 
     console.log('Loaded');
 
+    // Make a working clock to display at top of page
     function clock() {
         $("#currentDay").html(moment().format('dddd, MMMM Do YYYY, h:mm:ss a'));
     }
@@ -16,7 +20,7 @@ $(document).ready(function() {
     saveInput();
 });
 
-
+// Change the color scheme for the given hours of the day
 function changeColor() {
     let realTime = moment().hours();
     console.log("Current Time" + realTime);
@@ -41,6 +45,7 @@ function changeColor() {
     });
 }
 
+// Save the input values and return them to the textarea from local storage
 $('.saveBtn').on('click', function() {
     var myInput = $(this).siblings('.input').children('.details').val();
     console.log("this", this.id)
@@ -58,6 +63,7 @@ $('.saveBtn').on('click', function() {
 
 })
 
+// save the values from when the save button is clicked and show them in the textarea
 function saveInput() {
 
     var milTime = ['6:00 AM', '7:00 AM', '8:00 AM', '9:00 AM', '10:00 AM', '11:00 AM', '12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM', '6:00 PM', '7:00 PM', '8:00 PM', '9:00 PM', '10:00 PM'];
