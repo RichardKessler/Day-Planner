@@ -13,7 +13,7 @@ I WANT to save appointments or events and access them later.
 
 ## Getting Started
 
-You can access this application by going to: 
+You can access this application by going to: https://richardkessler.github.io/Day-Planner/
 
 ## Day-Planner Details
 
