@@ -73,6 +73,10 @@ th {
 }
 
 .saveBtn i:hover {
-    font-size: 40px;
+    font-size: 50px;
     transition: all .3s ease-in-out;
+}
+
+#power {
+    font-size: 40px;
 }
