@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    background-color: steelblue;
 }
 
 textarea {
@@ -34,13 +35,11 @@ textarea {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;
-    ;
 }
 
 .hour {
-    background-color: #ffffff;
-    color: #000000;
-    border-top: 1px dashed #000000;
+    background-color: darkorange;
+    color: snow;
 }
 
 .past {
@@ -61,6 +60,7 @@ textarea {
 th {
     text-align: center;
     color: darkorange;
+    font-size: 20px;
 }
 
 .saveBtn {
